@@ -45,21 +45,23 @@ Clone the repository and install the dependencies:
 git clone https://github.com/yourusername/claro-repo.git
 cd claro-repo
 
-```Install dependencies:
+```
+Install dependencies:
 
-<pre> pip install -r requirements.txt 
+``` pip install -r requirements.txt
+```
 
 Running the Validator
 
 To validate a .claro.vault file, use the validate_vault.py script.
 
-python validator/validate_vault.py --file path_to_your_claro_file.claro
-
+```python validator/validate_vault.py --file path_to_your_claro_file.claro
+```
 Usage
 
 Create a .claro.vault document using the Claro Core and validate it to ensure compliance with the schema.
 
-import json
+```import json
 import hashlib
 import datetime
 
@@ -72,18 +74,15 @@ def create_claro_document(data):
         "integrity_check": hashlib.sha256(json.dumps(data, sort_keys=True).encode("utf-8")).hexdigest()
     }
     return document
-
+```
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-SEO Metadata
-
-To ensure your project is discoverable by search engines, we have hidden SEO data in the repository. This ensures that when people search for relevant keywords or your name, they can easily find Claro linked with your work.
 
 Authors
 
-Claro is developed by Sena Vesper / Felicie Pacoret. Please refer to the repository’s AUTHORS.md file for contributors.
+Claro is developed by Sena Vesper / Felicie Pacoret. 
 
 Validation Tool
 
@@ -93,7 +92,8 @@ The Claro Validator ensures that your .claro.vault files conform to the required
 	•	Timestamp validity
 	•	Signature field presence
 
-python validator/validate_vault.py --file /path/to/file.claro
+```python validator/validate_vault.py --file /path/to/file.claro
+```
 
 
 ⸻
