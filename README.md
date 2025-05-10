@@ -49,6 +49,7 @@ cd claro-repo
 Install dependencies:
 
 ``` pip install -r requirements.txt
+
 ```
 
 Running the Validator
@@ -56,7 +57,9 @@ Running the Validator
 To validate a .claro.vault file, use the validate_vault.py script.
 
 ```python validator/validate_vault.py --file path_to_your_claro_file.claro
+
 ```
+
 Usage
 
 Create a .claro.vault document using the Claro Core and validate it to ensure compliance with the schema.
