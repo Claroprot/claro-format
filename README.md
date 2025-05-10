@@ -1,5 +1,3 @@
-Sure, here’s the complete README.md that we’ve developed for your GitHub repository. You can simply copy and paste this into the README.md file of your GitHub repository.
-
 # Claro: Next-Gen Document Vault & Format Standardization
 
 Welcome to **Claro**, the future of secure, verifiable, and standardized document formats for the modern world. Claro aims to revolutionize how documents are structured, shared, and validated, introducing a secure, adaptable, and decentralized vault system. Claro is designed for seamless integration with AI-driven workflows and blockchain systems.
