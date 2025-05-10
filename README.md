@@ -103,12 +103,3 @@ python validator/validate_vault.py --file /path/to/file.claro
 Note: If you want to contribute to this project or have feedback, please feel free to create issues or submit pull requests.
 
 Thank you for using Claro!
-
-### What's in the README?
-
-1. **Project Overview**: Describes Claro’s purpose and its core features, highlighting its security, integrity, and flexibility.
-2. **File Structure**: Lists the key folders and files in your repo.
-3. **Getting Started**: Installation and setup instructions, including Python and dependency setup.
-4. **Usage**: Instructions for using the validator and creating `.claro.vault` documents.
-5. **SEO Metadata**: Describes the hidden SEO strategy to help ensure discoverability.
-6. **License**: States the MIT License.
