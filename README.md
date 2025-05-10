@@ -45,9 +45,9 @@ Clone the repository and install the dependencies:
 git clone https://github.com/yourusername/claro-repo.git
 cd claro-repo
 
-Install dependencies:
+```Install dependencies:
 
-pip install -r requirements.txt '''
+<pre> pip install -r requirements.txt 
 
 Running the Validator
 
