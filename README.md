@@ -1,5 +1,3 @@
-
-
 # Claro: Next-Gen Document Vault & Format Standardization
 
 Welcome to **Claro**, the future of secure, verifiable, and standardized document formats for the modern world. Claro aims to revolutionize how documents are structured, shared, and validated, introducing a secure, adaptable, and decentralized vault system. Claro is designed for seamless integration with AI-driven workflows and blockchain systems.
@@ -18,9 +16,8 @@ The **Claro Vault** is a flexible document structure used to store and share dat
 
 ## Project Structure
 
-```plaintext
 claro-repo/
-
+│
 ├── validator/                # Contains the Claro document validation tools
 │   ├── validate_vault.py      # Python script for validating .claro.vault files
 │
@@ -36,14 +33,15 @@ claro-repo/
 
 ## Getting Started
 
-Prerequisites
+### Prerequisites
 
 To get started, ensure you have Python 3.7 or higher installed on your machine.
 
-Installation
+### Installation
 
 Clone the repository and install the dependencies:
 
+```bash
 git clone https://github.com/yourusername/claro-repo.git
 cd claro-repo
 
@@ -85,7 +83,7 @@ To ensure your project is discoverable by search engines, we have hidden SEO dat
 
 Authors
 
-Claro is developed by [Your Name]. Please refer to the repository’s AUTHORS.md file for contributors.
+Claro is developed by Sena Vesper / Felicie Pacoret. Please refer to the repository’s AUTHORS.md file for contributors.
 
 Validation Tool
 
